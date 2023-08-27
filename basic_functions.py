@@ -77,6 +77,15 @@ print(message)
 print()
 logger.info(f"message = {message}")
 
+# Ask user how they are feeling today
+mood = input("How are you feeling today? (happy/sad):").lower()
+
+# Based on the user's mood, display an appropriate message
+if mood == "happy":
+    print("Great to hear that you're feeling happy!")
+elif mood == "sad":
+    print("Keep your head up!")
+
 # Ask the user if they want to see built-in functions
 response = input("Would you like to see all the built-in functions? (y/n) ").lower()
 logger.info(f"response = {response}")

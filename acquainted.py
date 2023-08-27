@@ -48,17 +48,17 @@ logger, logname = setup_logger(__file__)
 # TODO: Customize these by changing the values - use your own name, etc.
 
 # String data types
-name = "John Doe"
-state = "California"
+name = "Sushanta Shrestha"
+state = "Virginia"
 country = "USA"
 
 # Integer data types
 pet_count = 1
-skill_count = 24
+skill_count = 1
 
 # Float data types (floating point numbers, with a decimal point)
 temperature_f = 81.5
-pet_weight_lbs = 12.5
+pet_weight_lbs = 7
 
 
 # Boolean data types (True or False)
@@ -82,3 +82,4 @@ logger.info(f"Pet weight: {pet_weight_lbs}")
 logger.info(f"Has dog: {has_dog}")
 logger.info(f"Likes analytics: {likes_analytics}")
 logger.info(f"Likes Python: {likes_python}")
+print('For this file, I changed my name, sate, pet count and its weight')

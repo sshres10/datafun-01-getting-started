@@ -40,9 +40,12 @@ logger, logname = setup_logger(__file__)
 # TODO: Try changing the values of these variables
 # TODO: Add some new variables (like rectangle_length and rectangle_width)
 #       and calculate the area of a rectangle (rectangle_area = rectangle_length * rectangle_width)
-triangle_base = 10
-triangle_height = 5
-num1 = 50
+rectangle_length = 5
+rectangle_width = 8
+rectangle_area = rectangle_length * rectangle_width
+triangle_base = 9
+triangle_height = 10
+num1 = 30
 num2 = 20
 float_num1 = 1.1
 float_num2 = 2.2
@@ -61,3 +64,7 @@ logger.info(
     f"Given float_num1={float_num1} and float_num2={float_num2}, sum = {total_sum}"
 )
 logger.info(f"Given num1={num1} and num2={num2}, the difference = {difference}")
+logger.info(
+    f"Given rectangle_length={rectangle_length} and rectangle_width={rectangle_width}, rectangle area = {rectangle_area}"
+)
+print('I added the rectangle length and width and caclutate the its area, and printed the logger info' )
